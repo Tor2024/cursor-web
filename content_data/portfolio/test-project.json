@@ -1,0 +1,13 @@
+{
+  "folder_name": "test-project",
+  "title": {
+    "ru": "Тестовый проект",
+    "en": "Test Project"
+  },
+  "content": {
+    "ru": "<p>Это тестовый проект для демонстрации функциональности портфолио.</p>",
+    "en": "<p>This is a test project to demonstrate the portfolio functionality.</p>"
+  },
+  "cover": "/uploads/test-image.jpg",
+  "date": "2025-11-08"
+}
