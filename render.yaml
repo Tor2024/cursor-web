@@ -8,23 +8,3 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      # Для бесплатного тарифа Render используйте Vercel Blob Storage
-      # Получите токен на https://vercel.com/dashboard/stores
-      # - key: BLOB_READ_WRITE_TOKEN
-      #   value: ваш_токен_vercel_blob
-      # 
-      # ИЛИ используйте Persistent Disk (только на платном тарифе):
-      # Добавьте Persistent Disk в настройках сервиса Render
-      # Path: /opt/render/project/src/content_data
-      # - key: AUTH_SECRET
-      #   value: ваш_секрет_аутентификации
-      # - key: BLOB_READ_WRITE_TOKEN
-      #   value: ваш_токен_vercel_blob
-      # - key: NEXT_PUBLIC_CREATE_BASE_URL
-      #   value: https://ваше_приложение.onrender.com
-      # - key: NEXT_PUBLIC_CREATE_HOST
-      #   value: ваше_приложение.onrender.com
-      # - key: NEXT_PUBLIC_PROJECT_GROUP_ID
-      #   value: ваш_id_группы_проекта
-      # - key: CORS_ORIGINS
-      #   value: https://ваше_приложение.onrender.com
